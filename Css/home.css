@@ -1,0 +1,154 @@
+header{
+    background-image: url("/images/background\ \(3\).jpg");
+}
+
+header .pray-time{
+    position: absolute;
+    right:120px;
+    top: 80%;
+    width: fit-content;
+}
+header .pray-time a{
+    background-color:rgb(15 116 143 / 70%);
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 15px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+header .pray-time a:hover{
+    background-color: white;
+    color:rgb(15 116 143 / 70%);
+}
+.pray-t-sec{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+ .sec-heading{
+    text-align: center;
+
+}
+ .sec-heading p{
+    position: relative;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 70px;
+}
+.sec-heading p::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 120px;
+    height: 3px;
+    bottom: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+.sec-heading p::after{
+    content: "";
+    position: absolute;
+    background-color: white;
+    width: 12px;
+    height: 12px;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 2px solid black;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.pray-t-sec .cities{
+    text-align: center;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+.pray-t-sec .cities select{
+    color:white ;
+    font-size: bold;
+    background-color: #556255;
+    width: 240px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #556255;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.pray-t-sec .cities button{
+    padding: 5px 10px;
+    font-size: 15px;
+    background-color: #556255;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-left: 12px;
+    cursor: pointer;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.pray-t-sec .time-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(300px, 1fr));
+    grid-column-gap: 40px;
+    grid-row-gap: 60px;
+}
+.pray-t-sec .time-container .card{
+    direction: ltr;
+    padding: 30px;
+    min-height: 140px;
+    background-color: white;
+    text-align: center;
+    border: 1px solid black;
+    transition: 0.3s;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.pray-t-sec .time-container .card:hover{
+    transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+    -moz-transform: translateY(4px);
+    -ms-transform: translateY(4px);
+    -o-transform: translateY(4px);
+}
+.time-container .card i{
+    font-size: 35px;
+    color: #556255;
+    margin-bottom: 20px;
+}
+.time-container .pray-name , .time{
+    font-size: 24px;
+    font-weight: bold;
+    color: #556255;
+    margin-bottom: 20px;
+}
